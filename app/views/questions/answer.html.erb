@@ -1,0 +1,23 @@
+<div class="container w-75">
+  <figure class="quote">
+      <blockquote class="blockquote">
+        <p><%=@question%></p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+          You
+      </figcaption>
+    </figure>
+
+  <figure class="quote quote-active">
+    <blockquote class="blockquote">
+      <p><%=@stupid_answer%></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+        Your Coach
+    </figcaption>
+  </figure>
+
+  <div class="hyperlink text-center">
+    <%= link_to "Ask a new question", ask_path%>
+  </div>
+</div>
